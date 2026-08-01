@@ -1,8 +1,25 @@
 aid: outcomes4me
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/outcomes4me.png
 name: Outcomes4Me
-description: 'Outcomes4Me is a company surfaced as a portfolio company of sierra-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: digital-health. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Outcomes4Me is a digital health company providing a personalized cancer care navigation
+  platform for patients. The consumer app delivers personalized treatment plans, symptom and medication
+  management, and community support grounded in NCCN Guidelines, serving over 300,000 patients across
+  100+ cancer communities. Alongside the patient app, Outcomes4Me runs a For Life Sciences business that
+  offers real-world outcomes data, precision content and marketing, and clinical-trial recruitment and
+  patient-reported-outcomes support to pharmaceutical and diagnostics partners. Backed by Sierra Ventures.
+  No public developer/API surface is published at this time; this profile has been enriched with the
+  company identity and domain-security posture that are publicly available.'
 url: https://raw.githubusercontent.com/api-evangelist/outcomes4me/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Digital Health
+- Healthcare
+- Cancer
+- Oncology
+- Patient Engagement
+- Real-world Data
+- Clinical Trials
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,18 @@ maintainers:
 common:
 - type: Website
   url: https://outcomes4me.com/
+- type: Blog
+  url: https://outcomes4me.com/press/
+- type: Support
+  url: https://outcomes4me.com/contact/
+- type: PrivacyPolicy
+  url: https://static.outcomes4me.com/privacy/
+- type: TermsOfService
+  url: https://static.outcomes4me.com/termsofservice/
+- type: DomainSecurity
+  url: security/outcomes4me-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
